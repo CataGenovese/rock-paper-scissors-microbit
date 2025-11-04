@@ -4,12 +4,12 @@ input.onGesture(Gesture.Shake, function () {
     if (hand == 1) {
         basic.showLeds(`
             # # # # #
-            # . . . #
-            # . . . #
-            # . . . #
+            # # # # #
+            # # # # #
+            # # # # #
             # # # # #
             `)
-        music.playSoundEffect(music.createSoundEffect(WaveShape.Noise, 4120, 1266, 255, 148, 500, SoundExpressionEffect.Warble, InterpolationCurve.Curve), SoundExpressionPlayMode.UntilDone)
+        music.playSoundEffect("D D B E A F G E ", SoundExpressionPlayMode.UntilDone)
     } else if (hand == 2) {
         basic.showLeds(`
             . . . . .
@@ -18,7 +18,7 @@ input.onGesture(Gesture.Shake, function () {
             . # # # .
             . . . . .
             `)
-        music.playSoundEffect("C D E F G A B C5 ", SoundExpressionPlayMode.UntilDone)
+        music.playSoundEffect(music.createSoundEffect(WaveShape.Noise, 4120, 1266, 255, 148, 500, SoundExpressionEffect.Warble, InterpolationCurve.Curve), SoundExpressionPlayMode.UntilDone)
     } else {
         basic.showLeds(`
             # # . . #
