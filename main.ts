@@ -18,7 +18,7 @@ input.onGesture(Gesture.Shake, function () {
             . # # # .
             . . . . .
             `)
-        music.playSoundEffect(music.createSoundEffect(WaveShape.Sine, 4417, 1, 0, 255, 266, SoundExpressionEffect.Vibrato, InterpolationCurve.Linear), SoundExpressionPlayMode.UntilDone)
+        music.playSoundEffect("C D E F G A B C5 ", SoundExpressionPlayMode.UntilDone)
     } else {
         basic.showLeds(`
             # # . . #
