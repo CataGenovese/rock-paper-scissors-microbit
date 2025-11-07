@@ -1,24 +1,16 @@
+# Pedra, Paper, Tisores amb el micro:bit
 
-> Abra esta pagina en [https://catagenovese.github.io/rock-paper-scissors-microbit/](https://catagenovese.github.io/rock-paper-scissors-microbit/)
+Un joc clàssic de **Pedra, Paper, Tisores** programat amb **BBC micro:bit**.  
+Aquest projecte permet jugar contra un altre micro:bit o contra l’atzar, fent servir moviments per seleccionar la jugada.
 
-## Usar como extensión
+---
 
-Este repositorio puede ser añadido como una **extensión** en MakeCode.
+## 🧩 Usar com a extensió
 
-* abra [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* haga clic en **New Project**
-* haga clic en **Extensiones** en el menú del engranaje
-* buscar **https://github.com/catagenovese/rock-paper-scissors-microbit** e importar
+Aquest repositori pot ser afegit com una **extensió** dins de MakeCode.
 
-## Edita este proyecto
+1. Obre [https://makecode.microbit.org/](https://makecode.microbit.org/)
+2. Fes clic a **New Project**
+3. Ves al menú del **engraneatge ⚙️** i selecciona **Extensions**
+4. Cerca el següent enllaç i importa’l:
 
-Para editar este repositorio en MakeCode.
-
-* abra [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* haga clic en **Import** luego haga clic en **Import URL**
-* pegue **https://github.com/catagenovese/rock-paper-scissors-microbit** y haga clic en importar
-
-#### Metadatos (utilizados para búsqueda, renderizado)
-
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
